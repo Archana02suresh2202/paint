@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+canvas{
+   
+   width: 400px;
+border: 1px solid black;
+display: block;
+margin: 20px auto;
+}
+
+
+</style>
+</head>
+<body>
+    <h1>paint app</h1>
+    <div>
+<label for="color">color</label>
+<input type="color" id="color" value="black">
+
+
+    </div>
+    <div>
+<label for="thickness">thickness</label>
+<input type="number" id="thickness" value="1" min="1" max="10">
+
+
+    </div>
+    <button id="clear">clear</button>
+    <canvas id="canvas"></canvas>
+
+
+
+    <script src="paint.js"></script>
+</body>
+</html>
